@@ -126,6 +126,7 @@ flowchart TD
 A mind map showing the interrelationships between checklist items and their contributions to overall goals.
 
 ```mermaid
+%%{init: { 'theme': 'dark' } }%%
 mindmap
   root((C-PAMID-AI))
     (Access & Persistence)
