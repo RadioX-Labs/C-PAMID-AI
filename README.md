@@ -101,15 +101,15 @@ A step-by-step workflow for applying the checklist during dataset preparation an
 
 ```mermaid
 flowchart TD
-    Start[Start: Plan Dataset Release]
-    Prep[Prepare Dataset Files<br/>(Standard Formats, Anonymize)]
-    Access[Choose Repository & Get DOI<br/>(Section A)]
-    Tech[Ensure Technical Standards<br/>(Section B)]
-    Meta[Create Metadata Files<br/>(Section C)]
-    Ethics[Apply Ethical/Legal Requirements<br/>(Section D)]
-    Test[Test Archives & Verify]
-    Publish[Publish & Document]
-    End[End: Dataset Available for AI Research]
+    Start["Plan Dataset Release"]
+    Prep["Prepare Dataset Files (Standard Formats, Anonymize)"]
+    Access["Choose Repository & Get DOI (Section A)"]
+    Tech["Ensure Technical Standards (Section B)"]
+    Meta["Create Metadata Files (Section C)"]
+    Ethics["Apply Ethical/Legal Requirements (Section D)"]
+    Test["Test Archives & Verify"]
+    Publish["Publish & Document"]
+    End["Dataset Available for AI Research"]
 
     Start --> Prep
     Prep --> Access
