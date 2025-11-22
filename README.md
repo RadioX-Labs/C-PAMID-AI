@@ -127,33 +127,30 @@ A mind map showing the interrelationships between checklist items and their cont
 
 ```mermaid
 mindmap
-  root((C-PAMID-AI)):::root
-    (Access & Persistence):::section
+  root((C-PAMID-AI))
+    (Access & Persistence)
       ::icon(fa fa-lock)
       A1 Repository Type -> Long-term Availability
       A2 DOI -> Citability
       A3 Access Method -> Easy Retrieval
       A4 Versioning -> Reproducibility
-    (Dataset Technicals):::section
+    (Dataset Technicals)
       ::icon(fa fa-cogs)
       B1 Standardized Formats -> Vendor Independence
       B2 File Integrity -> Trusted Downloads
       B3 Directory Structure -> Organized Access
       B4 Archive Test -> Error Prevention
-    (Metadata):::section
+    (Metadata)
       ::icon(fa fa-tags)
       C1 Patient-Image Mapping -> Prevent Leakage
       C2 Partition Keys -> Exact Reproduction
       C3 Label Definitions -> Clear Understanding
       C4 Exclusion Log -> Transparent Benchmaking
-    (Ethical & Legal):::section
+    (Ethical & Legal)
       ::icon(fa fa-scale)
       D1 License -> Usage Clarity
       D2 De-identification -> Privacy Protection
       D3 Citation -> Attribution
-
-  classDef root fill:#e6f3ff,stroke:#0056b3,stroke-width:3px,color:#0a4a8a
-  classDef section fill:#f0f8ff,stroke:#2e7d32,stroke-width:2px,color:#1b5e20
 ```
 
 ### 4. Before-and-After Impact
