@@ -17,7 +17,7 @@ Each item includes a specific requirement and rationale to guide researchers, in
 ### Table of Contents
 
 - [Checklist](#checklist)
-- [Visualizations](#diagrams-and-visualizations)
+- [Visualizations](#visualizations)
 
 ---
 
